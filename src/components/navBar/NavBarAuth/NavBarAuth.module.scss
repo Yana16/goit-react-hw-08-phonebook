@@ -1,0 +1,23 @@
+.nav {
+  width: 100%;
+ 
+}
+.list {
+  list-style: none;
+  display: flex;
+}
+
+.link {
+  border-radius: 5px;
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none;
+  transition: all linear 250ms;
+  &:hover {
+    background-color: rgb(245, 243, 243);
+  }
+}
+
+.link:global(.active) {
+  color: rgb(112, 80, 241);
+}
